@@ -114,6 +114,18 @@
 			return self;
 		}
 		
+		self.pushStroke = function(stroke) {
+		  if (stroke && jQuery.isArray(_strokes)) {
+		    _strokes.push(JSON.parse(stroke));
+		  }
+		  return self;
+		}
+		
+		self.redraw = function() {
+	    _redraw_strokes();
+	    return self;		  
+		}
+		
 		self.undoable = function() {
 			return _strokes.length > 0;
 		};
