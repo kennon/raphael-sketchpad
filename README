@@ -1,4 +1,4 @@
-This fork make a few tweaks to the original SketchPad and adds support for a NodeJS server for realtime collaborative sketchpadding.
+This fork makes a few tweaks to the original SketchPad code and adds a JQuery client and NodeJS server for realtime collaborative sketchpadding.
 
 --
 
