@@ -1,5 +1,7 @@
 This fork makes a few tweaks to the original SketchPad code and adds a JQuery client and NodeJS server for realtime collaborative sketchpadding.
 
+The server is based on the canonical NodeChat app (http://github.com/ry/node_chat)
+
 --
 
 Raphael SketchPad
