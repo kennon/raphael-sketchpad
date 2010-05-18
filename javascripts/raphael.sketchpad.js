@@ -186,8 +186,8 @@
 			}
 		};
 		
-		function _fire_change() {
-			_change_fn();
+		function _fire_change(path) {
+			_change_fn(path);
 		};
 		
 		// Private methods
@@ -247,7 +247,7 @@
 				
 				$(_input).val(JSON.stringify(_strokes));
 				
-				_fire_change();
+				_fire_change(path);
 			}
 		};
 		
