@@ -1,3 +1,7 @@
+This fork make a few tweaks to the original SketchPad and adds support for a NodeJS server for realtime collaborative sketchpadding.
+
+--
+
 Raphael SketchPad
 Version 0.1
 
